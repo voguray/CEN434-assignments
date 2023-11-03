@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cen.css"
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Culinary Club Form</title>
+</head>
+<body>
+    <div style="height: 30px;"></div>
+    <div class="container">
+        <h1>Culinary Club Form</h1>
+        <form id="form">
+            <label > First Name</label>
+            <input  type="text" placeholder="First Name">
+            <label >Last Name</label>
+            <input  type="text" placeholder="Last name">
+            <label>Date of Birth</label>
+            <input type="date" >
+            <label >Matric Number</label>
+            <input type="text" placeholder="Mat No" >
+            <span>Gender</span>
+            <div>
+            <label>Male</label>
+            <input name="male" type="radio">
+            <label>Female</label>
+            <input name="male" type="radio">
+        </div>
+            <label >Hall</label>
+            <select>
+                <option value="Peter">Peter</option>
+                <option value="Paul">Paul</option>
+                <option value="Joseph">Joseph</option>
+                <option value="John">John</option>
+                <option value="Daniel">Daniel</option>
+                <option value="Esther">Esther</option>
+                <option value="Deborah">Deborah</option>
+                <option value="Lydia">Lydia</option>
+                <option value="Dorcas">Dorcas</option>
+                <option value="Mary">Mary</option>
+            </select>
+            <label >Room Number</label>
+            <input type="text" placeholder="Room No" >
+            <label >Email</label>
+            <input type="text" placeholder="Email...">
+            <label>Add passport here</label>
+            <input class="pass" type = "file" name = "upload" accept = "image/*" />
+        </form>
+        <button id="btn">SUBMIT</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+<div style="height: 20px;"></div>
+</html>

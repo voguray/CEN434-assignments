@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: grid;
+    padding: 25px;
+    margin: 10px auto;
+    background: beige;
+    color: black;
+    width: 345px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form>input{
+    border: 2px solid #e0e0e0;
+    font-family: inherit;
+    padding: 0 24px;
+    font-size: 15px;
+    color: #2a2e36;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+select {
+    width: 100%;
+    font-size: 15px;
+    padding: 7px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#btn{
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 9px;
+    font-family: inherit;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: #003049;
+}
